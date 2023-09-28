@@ -1,0 +1,53 @@
+.custom-buttom-login{
+    background-color: rgb(93, 93, 224);
+    width: 110px;
+    height: 35px;
+    border-radius: 10px; 
+}
+
+.custom-buttom-login1{
+    border-color: black;
+    width: 110px;
+    height: 35px;
+    border-radius: 10px; 
+}
+
+.nav-custom-bg{
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    .nav-custom-bg{
+        width: 100%;
+    }
+    .custom-buttom-login1{
+        width: 100%;
+    }
+}
+
+.text-overlay{
+    font-size: 70px;
+    position: absolute;
+    top: 68%;
+    left: 9%;
+}
+
+.text-overlay1{
+    font-size: 35px;
+    position: absolute;
+    top: 80%;
+    left: 9%;
+}
+
+.footer-wrapper{
+    background-color: rgb(255, 255, 255);
+    min-height: 50px;
+}
+
+.footwe{
+    opacity: 50%;
+}
+
+.footer-copyright{
+    opacity: 50%;
+}
