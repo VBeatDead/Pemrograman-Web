@@ -51,6 +51,11 @@
     }
 }
 
+.cop{
+    opacity: 50%;
+    margin-top: 10px;
+}
+
 @media (max-width: 990px) {
     .custom-buttom-login {
         width: 100%;
@@ -86,19 +91,18 @@
 .footer-wrapper {
     background-color: rgb(255, 255, 255);
     min-height: 50px;
+    margin-bottom: 30px;
 }
 
 .btlg {
+    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    display: flex;
+    text-align: center;
+    margin-top: 35px;
 }
 
 .footwe {
     opacity: 50%;
-}
-
-.footer-copyright {
-    opacity: 50%;
-    padding-left: 12.8%;
 }
