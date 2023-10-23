@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #DDE6ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.todowrap {
+  background: linear-gradient(to bottom, #27374D, #526D82);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+}
+
+.add-task-wrap {
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #27374D;
+  color: #DDE6ED;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-input-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.input-filed {
+  border: 0;
+  height: 40px;
+  margin: 0px;
+  width: 100%;
+  color: #27374D;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  background-color: #DDE6ED;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-sub {
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  background-color: #DDE6ED;
+  border: none;
+  color: #27374D;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.todo-task-list {
+  margin-top: 30px;
+}
+
+.heading-tasklist {
+  font-size: 24px;
+  color: #DDE6ED;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}

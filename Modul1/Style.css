@@ -14,6 +14,11 @@
     margin-right: 5px;
 }
 
+.copy{
+    align-items: center;
+    text-align: center;
+}
+
 .nav-custom-bg {
     background-color: rgb(255, 255, 255);
 }
