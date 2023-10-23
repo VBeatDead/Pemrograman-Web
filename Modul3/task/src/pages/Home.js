@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
-      <h2>Selamat Datang di Home Page</h2>
+      <h2>Selamat Datang di Home Pages</h2>
       <Footer />
     </div>
   );
