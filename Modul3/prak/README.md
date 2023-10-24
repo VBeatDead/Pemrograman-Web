@@ -1,4 +1,4 @@
-![Screanshoot](./src/Asset/React-App.png)
+![Screanshoot](./src/Asset/Web-React.png)
 
 # Tugas Praktikum Modul 1 - Slicing Homepage menggunakan React.js
 
