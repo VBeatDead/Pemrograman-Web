@@ -1,4 +1,3 @@
-// Footer.js
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../Asset/logo-ilab.png';
