@@ -7,7 +7,7 @@ Ini adalah tugas praktikum Modul 1 yang telah diubah menggunakan React.js untuk 
 ## Struktur Proyek
 
 ```plaintext
-my-react-app/
+prak/
 │
 ├── public/
 │   ├── index.html
