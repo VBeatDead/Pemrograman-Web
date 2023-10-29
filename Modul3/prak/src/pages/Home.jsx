@@ -5,9 +5,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <section className="content">
-        
-      </section>
+      <section className="content"></section>
     </div>
   );
 };

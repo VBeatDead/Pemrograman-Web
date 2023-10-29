@@ -5,7 +5,6 @@ import facebook from '../Asset/logo-facebook.png';
 import instagram from '../Asset/logo-instagram.png';
 import twitter from '../Asset/logo-twitter.png';
 
-
 const Footer = () => {
   return (
     <footer>
@@ -42,9 +41,6 @@ const Footer = () => {
             <img src={instagram} alt="logo-instagram" width="20" height="20" style={{ marginRight: '11px' }} />
             Instagram
           </p>
-        </div>
-        <div className="col-md-12 col-xs-6 copy">
-          <p className="cop">Copyright © 2022 Infinite Learning</p>
         </div>
       </div>
     </footer>
