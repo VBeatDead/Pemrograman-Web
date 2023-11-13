@@ -43,4 +43,5 @@ The main entry point of the application includes the `ProductController` and dem
    ```
 - Access [http://localhost:8888](http://localhost:8888) in web browser.
 
+- And the result will be as follows.
 <img src="Assets/localhost-8888.png" alt="Hasil">
