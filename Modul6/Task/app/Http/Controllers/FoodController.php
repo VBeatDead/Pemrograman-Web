@@ -12,9 +12,6 @@ use Illuminate\Http\Request;
 
 class FoodController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         try {
@@ -28,10 +25,6 @@ class FoodController extends Controller
             return response()->json($e->getMessage(), 400);
         }
     }
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(StoreFoodRequest $request)
     {
         $validatedRequest = $request->validated();
@@ -46,10 +39,6 @@ class FoodController extends Controller
             return response()->json($e->getMessage(), 400);
         }
     }
-
-    /**
-     * Display the specified resource.
-     */
     public function show(string $id)
     {
         try {
@@ -63,10 +52,6 @@ class FoodController extends Controller
             return response()->json($e->getMessage(), 400);
         }
     }
-
-    /**
-     * Update the specified resource in storage.
-     */
     public function update(UpdateFoodRequest $request, string $id)
     {
         $validatedRequest = $request->validated();
@@ -83,10 +68,6 @@ class FoodController extends Controller
             return response()->json($e->getMessage(), 400);
         }
     }
-
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(string $id)
     {
         try {
